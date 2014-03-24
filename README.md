@@ -1,4 +1,10 @@
-# csswizardry-grids
+# csswizardry-grids-with-float
+
+This is a for from the really cool project [CSSWizard](http://csswizardry.com/csswizardry-grids/). The original implementation is based on using `display: inline-block`. But there are projects where the comon sense is not there and you still depend on floating the elements.
+
+So, the __ONLY__ difference is that you can set `$float: true` that lets you change `display: inline-block` to `float: left`. Also, you'll need a clearfix.
+
+
 
 **Simple, fluid, nestable, flexible, Sass-based, responsive grid system.**
 

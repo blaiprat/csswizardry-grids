@@ -1,11 +1,11 @@
 {
-  "name": "csswizardry-grids",
+  "name": "csswizardry-grids-with-floats",
   "version": "2.2.0",
-  "homepage": "http://csswizardry.com/csswizardry-grids/",
+  "homepage": "https://github.com/blaiprat/csswizardry-grids-with-floats/",
   "authors": [
     "Harry Roberts <harry@csswizardry.com>"
   ],
-  "description": "A fully responsive, mobile-first, infinitely nestable, reversible, reorderable, simple to understand, human-friendly, robust grid system.",
+  "description": "A fully responsive, mobile-first, infinitely nestable, reversible, reorderable, simple to understand, human-friendly, robust grid system. With floats",
   "main": "csswizardry-grids.scss",
   "keywords": [
     "csswizardry",

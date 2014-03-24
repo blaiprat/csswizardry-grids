@@ -99,6 +99,10 @@ $use-silent-classes:    false!default;
 $push:                  false!default;
 $pull:                  false!default;
 
+/**
+ * Would you like to use 'float: left' instead of 'display: inline-block'?
+ */
+$float:                 false!default;
 
 /**
  * Using `inline-block` means that the grid items need their whitespace removing
@@ -237,7 +241,11 @@ $class-type:            unquote(".");
      * 5. Required to combine fluid widths and fixed gutters.
      */
     #{$class-type}grid__item{
-        display:inline-block;           /* [1] */
+        @if $float == true{
+            float: left;
+        } else {
+            display:inline-block;           /* [1] */
+        }
         padding-left:$gutter;           /* [2] */
         vertical-align:top;             /* [3] */
         @if $mobile-first == true{
